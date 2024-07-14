@@ -1,0 +1,50 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%
+}
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-links {
+  display: flex;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  margin-right: 10px;
+}
+.head-text {
+  font-weight: 700;
+  font-size: 26px;
+}
+.section-two {
+  display: flex;
+  gap: 5px;
+  margin: 100px 0px;
+  flex: 1;
+  align-items: center;
+}
+.description, .image-placeholder {
+  width: 50%
+}
+.image-placeholder {
+  text-align: center;
+}
+h2{
+  font-size: 70px;
+  margin: 0px
+}
